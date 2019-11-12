@@ -4,7 +4,8 @@ import csv
 import skimage.transform as trans
 from skimage.util import random_noise
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import precision_score, recall_score import time
+from sklearn.metrics import precision_score, recall_score
+import time
 
 
 def readTrafficSigns(rootpath):
